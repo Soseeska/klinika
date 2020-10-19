@@ -1,0 +1,266 @@
+body {
+    background-color: #fff;
+    color: #000;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    font-family:  sans-serif;
+    font-size: 16px;
+}
+
+a,
+a:visited {
+    color: #000;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: #3f48cc;
+}
+
+
+h1 {
+    font-weight: normal;
+    font-size: 32px;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 1.2em;
+}
+
+.header {
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header .logo img {
+    width: 250px;
+}
+
+.header .logo .title {
+    line-height: 1.2rem;
+    font-weight: 300;
+}
+
+.header {
+    padding: 20px 0;
+}
+
+.header .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header .item {
+    min-width: 280px;
+    max-width: 280px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.header .item-2,
+.header .item-3 {
+    position: relative;
+    padding-left: 60px;
+}
+
+.header .item-2 img,
+.header .item-3 img {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 50px;
+}
+
+.header .item-4 {
+    text-align: right;
+}
+
+.header .logo {
+    display: block;
+    color: #222;
+}
+
+.header .logo .title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.header .logo .description {
+    color: #888;
+}
+
+.header .subheading {
+    color: #888;
+    font-size: 12px;
+    margin: 5px 0;
+}
+
+.header .address a {
+    text-decoration: underline;
+}
+
+.header a {
+    display: block;
+    color: #222;
+}
+
+.header a:hover {
+    color: #3f48cc;
+}
+
+.header .phone {
+    font-size: 20px;
+}
+
+.header .item-4 .button:first-child {
+    margin-bottom: 10px;
+}
+
+.header_top {
+    margin: 0 auto;
+    padding: 0 auto;
+    max-width: 1300px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.underline:hover {
+    text-decoration: none;
+}
+
+.buttons .button{
+    background-color: #3f48cc;
+    color: #fff;
+    border-color: #3f48cc;
+    border-radius: 20px;
+    min-width: 240px;
+    margin: 0 5px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.button{
+    color: #fff;
+    padding: 15px 30px;
+    border: 1px solid #3f48cc;
+    border-radius: 2px;
+    text-align: center;
+    text-decoration: none !important;
+}
+
+.buttons .button {
+    min-width: 240px;
+    margin: 0 5px;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    margin: 0 -5px;
+}
+
+.buttons .button:hover{
+    background-color:#fff;
+    border-color:#3f48cc;
+    color: #3f48cc;
+}
+
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"],
+a.button,
+a.button:visited {
+    color: #fff;
+    background-color: #3f48cc;
+}
+
+button:hover,
+html input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+a.button:hover,
+button:focus,
+html input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+a.button:focus {
+    color: #3f48cc;
+    background-color: #fff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea,
+select {
+    color: #000;
+    background-color: #fff;
+    border-color: #f2f4f6;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+textarea:focus,
+select:focus {
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"],
+a.button,
+a.button:visited {
+    color: #fff;
+    background-color: #3f48cc;
+}
+
+button:hover,
+html input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+a.button:hover,
+button:focus,
+html input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+a.button:focus {
+    color: #fff;
+    background-color: #3f48cc;
+}
+
