@@ -3,8 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/notmalize.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/modal.css">
     <title>ФЛЕБОЛОГ &ndash; Клиника лазерной хирургии г. Армавир</title>
 </head>
 
@@ -31,62 +32,43 @@
                 </div>
                 <div class="item item-4">
                     <div class="buttons">
-                        <a href="#" class="button #" data-toggle="modal" data-target="#appointment-form">Записаться на прием</a>
-                        <a href="https://api.whatsapp.com/send?phone=79649126557" class="button button-transparent">Написать в WhatsApp</a>
+                        <a href="#registration" id="regbtn" class="button" >Записаться на прием</a>
+                        <a href="https://api.whatsapp.com/send?phone=79184709609" class="button button-transparent">Написать в WhatsApp</a>
                     </div>
                 </div>
             </div>
         </div>
+
     </header>
 
-    <!--
+    <div id="registration" class="modal">
+      <form class="modal-content" action="/action_page.php">
+        <span id="close"  class="close" title="Закрыть окно">×</span>
+        <div class="modal-container">
+          <h1>Запись на прием</h1>
+          <hr>
 
-       <nav id="site-navigation" class="main-navigation" itemtype="https://schema.org/SiteNavigationElement" itemscope>
-        <div class="inside-navigation grid-container grid-parent">
-            <form method="get" class="search-form navigation-search" action="http://flebocentr.com/">
-                <input type="search" class="search-field" value="" name="s" title="Поиск" />
-            </form>
-            <div class="mobile-bar-items">
-                <span class="search-item">
-                    <a aria-label="Open Search Bar" href="#">
-                    </a>
-                </span>
-            </div>
-            <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
-                <span class="mobile-menu">Меню</span> </button>
-            <div id="primary-menu" class="main-nav">
-                <ul id="menu-glavnoe-menyu" class=" menu sf-menu">
-                    <li id="menu-item-284" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-284"><a href="http://flebocentr.com/o-klinike/">О клинике<span role="presentation" class="dropdown-menu-toggle"></span></a>
-                        <ul class="sub-menu">
-                            <li id="menu-item-283" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-283"><a href="http://flebocentr.com/litsenziya/">Лицензия</a></li>
-                            <li id="menu-item-345" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-345"><a href="http://flebocentr.com/otzyvy/">Отзывы</a></li>
-                        </ul>
-                    </li>
-                    <li id="menu-item-219" class="menu-item menu-item-type-post_type_archive menu-item-object-doctors menu-item-219"><a href="http://flebocentr.com/vrachi/">Врачи</a></li>
-                    <li id="menu-item-299" class="menu-item menu-item-type-post_type_archive menu-item-object-directions menu-item-has-children menu-item-299"><a href="http://flebocentr.com/napravleniya/">Направления<span role="presentation" class="dropdown-menu-toggle"></span></a>
-                        <ul class="sub-menu">
-                            <li id="menu-item-301" class="menu-item menu-item-type-post_type menu-item-object-directions menu-item-301"><a href="http://flebocentr.com/napravleniya/flebologiya/">Флебология</a></li>
-                            <li id="menu-item-300" class="menu-item menu-item-type-post_type menu-item-object-directions menu-item-300"><a href="http://flebocentr.com/napravleniya/koloproktologiya/">Колопроктология</a></li>
-                        </ul>
-                    </li>
-                    <li id="menu-item-287" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-287"><a href="http://flebocentr.com/tseny/">Услуги и цены</a></li>
-                    <li id="menu-item-306" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-306"><a href="#">Пациентам<span role="presentation" class="dropdown-menu-toggle"></span></a>
-                        <ul class="sub-menu">
-                            <li id="menu-item-490" class="menu-item menu-item-type-post_type_archive menu-item-object-before_after menu-item-490"><a href="http://flebocentr.com/do-posle/">До/После</a></li>
-                            <li id="menu-item-458" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-458"><a href="http://flebocentr.com/nadzornye-organy/">Надзорные органы</a></li>
-                        </ul>
-                    </li>
-                    <li id="menu-item-535" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-535"><a href="http://flebocentr.com/kontakty/">Контакты</a></li>
-                    <li id="menu-item-302" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-302"><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/flebocentr"><i class="fa fa-facebook"></i></a></li>
-                    <li id="menu-item-303" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-303"><a target="_blank" rel="noopener noreferrer" href="https://vk.com/flebocentr"><i class="fa fa-vk"></i></a></li>
-                    <li id="menu-item-304" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-304"><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/flebocentr/"><i class="fa fa-instagram"></i></a></li>
-                    <li id="menu-item-305" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-305"><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCAAm9jbVYByqFfQp0C7KWFQ"><i class="fa fa-youtube-play"></i></a></li>
-                    <li class="search-item"><a aria-label="Open Search Bar" href="#"></a></li>
-                </ul>
-            </div>
+          <label for="fio"><b>Фамилия Имя Отчество</b></label>
+          <input type="text" placeholder="Введите ФИО" name="fio" required>
+
+          <label for="phone"><b>Номер телефона</b></label>
+          <input type="tel" placeholder="Введите номер телефона" name="phone" required>
+
+          <label for="data"><b>Дата</b></label>
+          <input type="date" placeholder="Введите дату" name="data" required>
+
+          <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Нажимая кнопку "Записаться на прием", Вы даете согласие на обработку <a href="#" style="color:dodgerblue">персональных данных</a>.
+          </label>
+
+          <div class="clearfix">
+            <button type="submit" class="sendbtn">Записаться на прием</button>
+          </div>
         </div>
-    </nav>
-    -->
+      </form>
+    </div>
+
+
 </body>
 
 </html>
