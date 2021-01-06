@@ -3,9 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/navigation.css">
     <title>ФЛЕБОЛОГ &ndash; Клиника лазерной хирургии г. Армавир</title>
 </head>
 
@@ -21,7 +23,7 @@
                 <div class="item item-2">
                     <img src="img/tochkakarta.png" alt="">
                     <div class="subheading">Адрес клиники</div>
-                    <div class="address">Краснодарский край, г. Армавир, ул. Маркова, д. 343</div>
+                    <div class="address">Краснодарский край, г. Армавир,<br> ул. Маркова, д. 343</div>
                     <div class="subheading">Эл. почта</div><a href="mailto:astoyan99@mail.ru" class="underline">astoyan99@mail.ru</a>
                 </div>
                 <div class="item item-3">
@@ -33,12 +35,11 @@
                 <div class="item item-4">
                     <div class="buttons">
                         <a href="#registration" id="regbtn" class="button" >Записаться на прием</a>
-                        <a href="https://api.whatsapp.com/send?phone=79184709609" class="button button-transparent">Написать в WhatsApp</a>
+                        <a href="https://api.whatsapp.com/send?phone=79649126557" class="button button-transparent">Написать в WhatsApp</a>
                     </div>
                 </div>
             </div>
         </div>
-
     </header>
 
     <div id="registration" class="modal">
@@ -58,7 +59,7 @@
           <input type="date" placeholder="Введите дату" name="data" required>
 
           <label>
-            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Нажимая кнопку "Записаться на прием", Вы даете согласие на обработку <a href="#" style="color:dodgerblue">персональных данных</a>.
+          <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Нажимая кнопку "Записаться на прием", Вы даете согласие на обработку <a href="#" style="color:dodgerblue">персональных данных</a>.
           </label>
 
           <div class="clearfix">
@@ -67,8 +68,25 @@
         </div>
       </form>
     </div>
+    
+    <nav id="site-navigation" class="main-navigation">
+        <div id="primary-menu" class="main-nav">
+            <ul class="topmenu">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">О клинике</a></li>
+                <li><a href="#">Услуги и цены<i class="fa"></i></a>
+                  <ul class="submenu">
+                    <li><a href="">Item 1</a></li>
+                    <li><a href="">Item 2</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Врачи</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
 
-<script src="js/app.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
