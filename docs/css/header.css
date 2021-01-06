@@ -173,7 +173,7 @@ h4 {
 }
 
 .buttons .button {
-    max-width: 260px;
+    minwidth: 240px;
     margin: 0;
     margin-bottom: 10px;
 }
