@@ -55,7 +55,6 @@ input[type=date]:focus {
     overflow: auto;
     background-color: rgba(71, 78, 93, 0.4);
     padding-top: 50px;
-    min-width: 300px;
 }
 
 .modal-content {
@@ -64,6 +63,7 @@ input[type=date]:focus {
     border: 1px solid #888;
     width: 100%;
     border-radius: 5px;
+    min-width: 250px;
 }
 
 hr {
