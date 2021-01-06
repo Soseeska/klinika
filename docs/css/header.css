@@ -8,7 +8,7 @@ button,
 input,
 select,
 textarea {
-    font-family:  sans-serif;
+    font-family: sans-serif;
     font-size: 16px;
 }
 
@@ -152,7 +152,7 @@ h4 {
     text-decoration: none;
 }
 
-.buttons .button{
+.buttons .button {
     background-color: #3f48cc;
     color: #fff;
     border-color: #3f48cc;
@@ -163,7 +163,7 @@ h4 {
     border-radius: 20px;
 }
 
-.button{
+.button {
     color: #fff;
     padding: 15px 30px;
     border: 1px solid #3f48cc;
@@ -182,17 +182,14 @@ h4 {
     margin: 0 -5px;
 }
 
-.buttons .button:hover{
-    background-color:#fff;
-    border-color:#3f48cc;
+.buttons .button:hover {
+    background-color: #fff;
+    border-color: #3f48cc;
     color: #3f48cc;
 }
 
 
 button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"],
 a.button,
 a.button:visited {
     color: #fff;
@@ -200,51 +197,15 @@ a.button:visited {
 }
 
 button:hover,
-html input[type="button"]:hover,
-input[type="reset"]:hover,
-input[type="submit"]:hover,
 a.button:hover,
 button:focus,
-html input[type="button"]:focus,
-input[type="reset"]:focus,
-input[type="submit"]:focus,
 a.button:focus {
     color: #3f48cc;
     background-color: #fff;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="url"],
-input[type="password"],
-input[type="search"],
-input[type="tel"],
-input[type="number"],
-textarea,
-select {
-    color: #000;
-    background-color: #fff;
-    border-color: #f2f4f6;
-}
-
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="url"]:focus,
-input[type="password"]:focus,
-input[type="search"]:focus,
-input[type="tel"]:focus,
-input[type="number"]:focus,
-textarea:focus,
-select:focus {
-    color: #000;
-    background-color: #fff;
-    border-color: #fff;
-}
 
 button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"],
 a.button,
 a.button:visited {
     color: #fff;
@@ -252,16 +213,40 @@ a.button:visited {
 }
 
 button:hover,
-html input[type="button"]:hover,
-input[type="reset"]:hover,
-input[type="submit"]:hover,
 a.button:hover,
 button:focus,
-html input[type="button"]:focus,
-input[type="reset"]:focus,
-input[type="submit"]:focus,
 a.button:focus {
     color: #fff;
     background-color: #3f48cc;
 }
+
+.registration {
+    position: absolute;
+    height: 400px;
+    width: 300px;
+    display: block;
+    background-color: #fff;
+    color: #3f48cc;
+    margin: 50px auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px solid #3f48cc;
+    border-radius: 35px;
+}
+
+.hidden {
+    display: none;
+}
+
+.activated {
+    display: block;
+    position: fixed;
+}
+
+
+
+/------------------------------------/
+
 
