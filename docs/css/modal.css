@@ -96,6 +96,10 @@ hr {
 
 
 @media screen and (max-width: 300px) {
+    .modal{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
     .sendbtn {
        width: 100%;
     }
