@@ -174,7 +174,7 @@ h4 {
 
 .buttons .button {
     min-width: 240px;
-    margin: 0 5px;
+    margin: 0;
     margin-bottom: 10px;
 }
 
