@@ -35,6 +35,6 @@ $mail->AltBody = '';
 if(!$mail->send()) {
     echo 'Error';
 } else {
-    header('location: https://soseeska.github.io/klinika/index.html');
+    header('location: /klinika/');
 }
 ?>
