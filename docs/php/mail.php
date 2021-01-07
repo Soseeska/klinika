@@ -33,7 +33,7 @@ $mail->Body    = '' .$name . ' оставил заявку, его телефо�
 $mail->AltBody = '';
 
 if(!$mail->send()) {
-    echo 'Error';
+    echo '1';
 } else {
     header('location: https://soseeska.github.io/klinika/');
 }
