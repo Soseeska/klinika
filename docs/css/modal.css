@@ -39,6 +39,9 @@ input[type=date]:focus {
 }
 
 
+.modal-container {
+    padding: 15px;
+}
 
 
 .modal {
@@ -93,6 +96,10 @@ hr {
 
 
 @media screen and (max-width: 300px) {
+    .modal{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
     .sendbtn {
        width: 100%;
     }
@@ -103,10 +110,3 @@ hr {
     }
 }
 
-form{
-    padding:15px;
-}
-
-form #close{
-    padding:0;
-}
