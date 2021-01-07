@@ -35,6 +35,6 @@ $mail->AltBody = '';
 if(!$mail->send()) {
     echo 'Error';
 } else {
-    header('location: /klinika/');
+    header('location: index.html');
 }
 ?>
