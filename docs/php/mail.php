@@ -1,6 +1,6 @@
 <?php 
 
-require_once('https://github.com/Soseeska/klinika/blob/main/docs/php/phpmailer/PHPMailerAutoload.php');
+require_once('/php/phpmailer/PHPMailerAutoload.php');
 $mail = new PHPMailer;
 $mail->CharSet = 'utf-8';
 
