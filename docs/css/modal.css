@@ -106,7 +106,7 @@ hr {
     input[type=text],
     input[type=tel],
     input[type=date] {
-        width: 94.5%;
+        width: 90%;
     }
 }
 
