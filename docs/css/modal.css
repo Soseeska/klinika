@@ -3,7 +3,7 @@ input[type=tel],
 input[type=date] {
     width: 100%;
     margin: 5px 0 22px 0;
-    padding: 15px 0 15px 0;
+    padding: 15px 0 15px 15px;
     display: inline-block;
     border: none;
     background: #f1f1f1;
@@ -102,5 +102,5 @@ hr {
 }
 
 form{
-    padding: 5px;
+    padding: 15px;
 }
