@@ -96,17 +96,8 @@ hr {
 
 
 @media screen and (max-width: 300px) {
-    .modal{
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
     .sendbtn {
        width: 100%;
-    }
-    input[type=text],
-    input[type=tel],
-    input[type=date] {
-        width: 96.5%;
     }
 }
 
